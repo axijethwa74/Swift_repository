@@ -1,0 +1,55 @@
+OPERATORS IN SWIFT : 
+
+Assignment Operator:  (a = b),let (x, y) = (1, 2), +=, -=
+
+Arithmetic Operators: 
+Swift supports the four standard arithmetic operators for all number types:
+
+Addition (+)
+
+Subtraction (-)
+
+Multiplication (*)
+
+Division (/)
+
+Remainder Operator: 
+
+%
+
+Unary Minus Operator: 
+
+let three = 3
+let minusThree = -three 
+
+Unary Plus Operator : 
+
+let minusSix = -6
+let alsoMinusSix = +minusSix
+
+
+Comparison Operators
+
+Equal to (a == b)
+Not equal to (a != b)
+Greater than (a > b)
+Less than (a < b)
+Greater than or equal to (a >= b)
+Less than or equal to (a <= b)
+
+Ternary Conditional Operator: 
+
+if question {
+    answer1
+} else {
+    answer2
+}
+
+Nil-Coalescing Operator: 
+
+a != nil ? a! : b
+
+
+
+
+
