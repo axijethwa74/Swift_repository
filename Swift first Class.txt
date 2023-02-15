@@ -1,0 +1,170 @@
+Introduction to Swift : 
+
+Datatypes in Swift : 
+  Six types of Datatypes in Swift
+ Int, String, Float, Double, Bool, and Character
+
+
+
+Keyword in Swift : 
+  Many keywords but Important is two let & var
+
+
+Declare Variable : 
+
+var siteName:String
+var id: Int
+
+Initalization variable : 
+
+var num = 10 
+
+
+Assign Values to Variables
+You can assign values to variables using the = operator.
+
+var siteName: String
+siteName = "programiz.com"
+
+print(siteName) :
+
+
+Topic # 2: 
+
+Rules for naming Swift Variables
+
+Variables names must start with either a letter, an underscore _, or the dollar sign $. For example,
+
+var a = "hello"
+var _a = "hello"
+var $a = "hello"
+
+Variable names cannot start with numbers. For example,
+
+var 1a = "hello" 
+Swift is case-sensitive. So A and a are different variables. For example,
+
+var A = 5 
+var a = 55
+print(A) 
+print(a) : 
+
+
+Keyword Use in Swift : 
+
+let siteName : String = "www.google.com"
+print(siteName)
+
+var name : String = "Yougesh"
+print(name)
+
+
+If else Conditions : 
+
+let number = 10
+
+if (number > 0) {
+    print("Number is positive.")
+}
+
+else {
+    print("Number is negative.")
+}
+
+print("This statement is always executed.")
+
+//......................//
+
+
+If Else Condition # 2 :
+
+
+let number = 0
+
+if (number > 0) {
+    print("Number is positive.")
+}
+
+else if (number < 0) {
+    print("Number is negative")
+}
+
+else {
+    print("Number is 0.")
+}
+
+print("This statement is always executed")
+
+//...............//
+
+Switch Case Structure  :
+
+ switch (expression)  {
+  case value1:
+    // statements 
+
+  case value2:
+    // statements 
+
+  ...
+  ...
+        
+  default:
+    // statements
+}
+
+//.......//
+let dayOfWeek = 4
+
+switch dayOfWeek {
+  case 1:
+    print("Sunday")
+	    
+  case 2:
+    print("Monday")
+	    
+  case 3:
+    print("Tuesday")
+	    
+  case 4:
+    print("Wednesday")
+	    
+  case 5:
+    print("Thursday")
+	    
+  case 6:
+    print("Friday")
+	    
+  case 7:
+    print("Saturday")
+	    
+  default:
+    print("Invalid day")
+}
+
+//..................//
+
+User Input in Swift : 
+
+
+print("Enter your favorite programming language:") 
+let name = readLine() 
+print("Your favorite programming language is \(name!).")
+
+//.....//
+
+
+if let input = readLine()
+{
+    if let int = Int(input)
+    {
+        print("Entered input is \(int) of the type:\(type(of: int))")
+    }
+    else{
+        print("Entered input is \(input) of the type:\(type(of: input))")
+    }
+}
+
+
+
+
