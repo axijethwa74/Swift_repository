@@ -1,0 +1,100 @@
+Example # 1 : Repeat While Loop 
+
+var a = 15;
+repeat{
+  a=a+1
+}while a<20
+
+print("a value is less than 20")
+
+
+Example # 2 : 
+
+
+
+var i = 1, n = 10
+
+
+repeat {
+  
+  print(i)
+
+  i = i + 1
+
+} while (i <= n) 
+
+print(i)
+
+Example # 3 
+
+var number = 1
+
+repeat {
+    print(number)
+    number += 1
+} while number <= 20
+
+print(number)
+
+Example # 4 : 
+
+Switch case : 
+
+let identity:Int = Int(readLine()!)!
+switch identity{
+  case 0:
+  print("john Identity Found")
+  case 1: 
+  print("Jack Identity found")
+  default: 
+  print("not found ")
+}
+
+Example # 5 : 
+
+let liveAlbums = 2
+
+switch liveAlbums {
+case 0:
+    print("You're just starting out")
+
+case 1:
+    print("You just released iTunes Live From SoHo")
+
+case 2:
+    print("You just released Speak Now World Tour")
+
+default:
+    print("Have you done something new?")
+}
+
+
+Example # 6 Muiltiples Values oF Cases : 
+
+
+let size = 3
+
+switch size{
+  case 0, 1:
+  print("good")
+    case 2, 3:
+  print("very good")
+    case 4, 5:
+  print("Execllent")
+  default:
+  break
+}
+
+
+Example # 7 : Range Statement : 
+
+let height = 40
+switch height{
+  case 0...50:
+  print("Lower Height")
+  case 51...100:
+  print("Upper height")
+  default : 
+  print("Invalid break")
+}
+
